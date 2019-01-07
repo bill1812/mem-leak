@@ -1,0 +1,25 @@
+{
+  "name": "mem-leak",
+  "version": "0.0.1",
+  "description": "expressjs/express 5.0.0-alpha.7 memory leak test on window",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index",
+    "devstart": "nodemon --config ./nodemon.json ./index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bill1812",
+  "bugs": {
+    "url": "https://github.com/bill1812/mem-leak/issues"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "github:expressjs/express#5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bill1812/mem-leak.git"
+  }
+}
